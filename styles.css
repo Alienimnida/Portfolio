@@ -1,0 +1,110 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+body
+{
+    background-color: #FF90BC;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.navbar{
+  align-items: center;
+  background-color: #FF90BC;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.navbar a{
+  color:white;
+  text-decoration: none;
+  font-size: 20px;
+}
+img{
+    border-radius: 50%;
+    align-items: flex-end;
+    height: 250px;
+}
+img:hover
+{
+    box-shadow:  20px 20px 40px #9d9d9d,
+    -20px -20px 40px #ffffff;
+}
+.header{
+    text-align: center;
+    color: white;
+}
+.Qualification h2{
+    text-align: center;
+}
+.Qualification{
+    background-color:#F9F9E0;
+    margin-top: 10px;
+    border-color: black 1px solid;
+    border-radius: 15px;
+    max-width: 50%;
+    align-items: center;
+}
+.Qualification:hover{
+    box-shadow:  20px 20px 40px #9d9d9d,
+                 -20px -20px 40px #ffffff;
+}
+.about{
+    max-width: 50%;
+    border-radius: 15px;
+    text-align: center;
+    border-radius: 50px;
+    border-radius: 42px;
+    background: #F9F9E0;
+}
+.about:hover{
+    box-shadow:  20px 20px 40px #9d9d9d,
+                 -20px -20px 40px #ffffff;
+}
+.tech{
+    background-color:#F9F9E0;
+    margin-top: 10px;
+    border-color: black 1px solid;
+    border-radius: 15px;
+    max-width: 50%;
+    padding: 0%;
+    text-align: center;
+}
+.tech:hover{
+    box-shadow:  20px 20px 40px #9d9d9d,
+                 -20px -20px 40px #ffffff;
+}
+.projects{
+  max-width: 50%;
+  border-radius: 15px;
+  text-align: center;
+  background: #F9F9E0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.projects:hover{
+  box-shadow:  20px 20px 40px #9d9d9d,
+               -20px -20px 40px #ffffff;
+}
+.footer{
+  background-color:#FF90BC;
+  text-align: center;
+  border-top: 3px solid white;
+}
+@media only screen and (max-width:786px){
+    #about{
+        font-size: 10px;
+    }
+    #Qualification{
+        font-size: 10px;
+    }
+    #tech{
+        font-size: 10px;
+    }
+    #projects{
+        font-size: 10px;
+    }
+}
